@@ -16,9 +16,10 @@
 }
 .firstSlide .panel .skull {
   opacity: 0;
-  transition: opacity .3s;
+  transition: opacity .3s ease-in;
 }
-.firstSlide .panel.hide .skull {
+.firstSlide .panel.hide .skull,
+.firstSlide.mixtagon .panel .skull {
   opacity: 1;
 }
 
@@ -52,3 +53,29 @@ p {
 }
 
 
+.flex a.svg {
+  height: 35px;
+  margin-right: 10%;
+  width: calc(60% / 3);
+}
+.flex a.svg:last-child {
+  margin-right: 0;
+}
+.flex .svg svg {
+  fill: #0581BF !important;
+  height: 35px;
+  width: 100%;
+}
+
+.footer-icons .svg svg {
+  fill: #fff !important;
+  height: 40px;
+  width: 80px;
+}
+
+
+
+.hidden {
+  display: none;
+  height: 0;
+}
