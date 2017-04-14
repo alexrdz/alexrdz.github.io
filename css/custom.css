@@ -9,7 +9,18 @@
 .hero span {
   font-size: 44px;
 }
-
+@media (max-width: 550px) {
+  .firstSlide .panel .skull {
+    opacity: 0;
+  }
+}
+.firstSlide .panel .skull {
+  opacity: 0;
+  transition: opacity .3s;
+}
+.firstSlide .panel.hide .skull {
+  opacity: 1;
+}
 
 p {
   font-size: 18px;
