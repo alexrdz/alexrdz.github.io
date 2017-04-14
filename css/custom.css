@@ -1,0 +1,43 @@
+.slide a {
+  color: #0581BF;
+}
+.hero {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 66px;
+  font-weight: 300;
+}
+.hero span {
+  font-size: 44px;
+}
+
+
+p {
+  font-size: 18px;
+}
+
+
+.experience hr {
+  background: rgba(41,41,41,.15);
+  height: 1px;
+}
+
+.responsibilities li {
+  list-style: circle;
+  margin: 0  0 1rem 4rem;
+}
+
+.button {
+  font-size: 16px;
+}
+
+
+
+
+
+
+.nextSlide svg {
+  height: 22px;
+  width: 22px;
+}
+
+
