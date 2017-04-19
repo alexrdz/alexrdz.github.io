@@ -85,7 +85,8 @@ p {
 .image-scroller {
   width: 100%;  
   height: 600px;  
-  background: url('../assets/img/work/wfpia.jpg') repeat-y;  
+  background: url('../assets/img/work/wfpia.jpg') repeat-x;
+  background-size: cover;  
   -webkit-animation: backgroundScroll 20s linear infinite;
   animation: imageScroll 20s linear infinite;
 }
