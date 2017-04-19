@@ -1,3 +1,30 @@
+.panel .sections .menu.uppercase li {
+  font-size: 14px;
+
+  a {
+    padding: 5px;
+
+    &:after {
+      background-color: $default-dark-color;
+      border-radius: 5px;
+      content: '';
+      display: block;
+      height: 2px;
+      margin: 5px auto 0;
+      transition: .3s width;
+      width: 50%;
+    }
+    &:hover {
+      &:after {
+        background-color: rgba($theme-blue, .5);
+        width: 85%;
+      }
+    }
+  }
+}
+
+
+
 .slide a {
   color: #0581BF;
 }
