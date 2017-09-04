@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round|Quicksand:300|Playfair+Display" rel="stylesheet" type="text/css"
   />
-  <link href="css/styles.css" rel="stylesheet">
+  <link href="/css/styles.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
     crossorigin="anonymous"></script>
-  <script src="js/uikit.min.js"></script>
-  <script src="js/uikit-icons.min.js"></script>
+  <script src="/js/uikit.min.js"></script>
+  <script src="/js/uikit-icons.min.js"></script>
 </head>
 
 <body>
@@ -181,111 +181,142 @@
 
   <div class="uk-offcanvas-content">
 
-    <header class="hero mixtagon" id="home">
-      <nav class="uk-navbar uk-navbar-container uk-margin" uk-sticky>
-        <div class="uk-navbar-left">
-          <a class="uk-navbar-toggle" href="#" uk-toggle="target: #offcanvas-reveal">
+<header class="hero mixtagon" id="home">
+  <nav class="uk-navbar uk-navbar-container uk-margin" uk-sticky>
+    <div class="uk-navbar-left">
+      <a class="uk-navbar-toggle" href="#" uk-toggle="target: #offcanvas-reveal">
           <span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
         </a>
-        </div>
-        <div class="uk-navbar-right">
-            <svg class="alexrdz__skull--nav">
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
-              </svg>
-        </div>
-      </nav>
-      <div id="offcanvas-reveal" uk-offcanvas="mode: reveal; overlay: true">
-        <div class="uk-offcanvas-bar">
+    </div>
+    <div class="uk-navbar-right">
+      <svg class="alexrdz__skull--nav">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+      </svg>
+    </div>
+  </nav>
+  <div id="offcanvas-reveal" uk-offcanvas="mode: reveal; overlay: true">
+    <div class="uk-offcanvas-bar">
 
-          <button class="uk-offcanvas-close" type="button" uk-close></button>
+      <button class="uk-offcanvas-close" type="button" uk-close></button>
 
-          <h3>Alex Rdz</h3>
-          <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-            <li class=""><a href="#home" uk-scroll>Home</a></li>
-            <li class=""><a href="#about" uk-scroll>About</a></li>
-            <li class=""><a href="#contact" uk-scroll>Contact Me</a></li>
-            <li class="uk-nav-header">Work</li>
-            <li class=""><a href="#mixtagon" uk-scroll>Mixtagon</a></li>
-            <li class=""><a href="#panda" uk-scroll>Panda App</a></li>
-            <li class=""><a href="#le" uk-scroll>Laredo Examiners</a></li>
-            <li class=""><a href="#koala" uk-scroll>Koala App</a></li>
-          </ul>
+      <h3>Alex Rdz</h3>
+      <ul class="uk-nav uk-nav-primary uk-nav-right uk-margin-auto-vertical" uk-scrollspy="target: > li; cls:uk-animation-slide-left; delay: 500; repeat: true">
+        <li class=""><a href="#home" uk-scroll>Home</a></li>
+        <li class=""><a href="#about" uk-scroll>About</a></li>
+        <li class=""><a href="#contact" uk-scroll>Contact Me</a></li>
+        <li class="uk-nav-header">Work</li>
+        <li class=""><a href="#mixtagon" uk-scroll>Mixtagon</a></li>
+        <li class=""><a href="#panda" uk-scroll>Panda App</a></li>
+        <li class=""><a href="#le" uk-scroll>Laredo Examiners</a></li>
+        <li class=""><a href="#koala" uk-scroll>Koala App</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+  <section class="uk-section-small">
+    <div class="uk-container uk-container-small uk-padding-large uk-padding-remove-top">
+      <div class="uk-flex uk-flex-middle uk-flex-center">
+        <div class="uk-text-center uk-padding-large uk-padding-remove-top" uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+          <h1 class="uk-text-uppercase">Panda App</h1>
+          <figure>
+              <img src="/images/portfolio/panda-macbook.png" alt="">
+          </figure>
+          <a class="uk-button uk-button-secondary" href="https://github.com/josedigital/playlists">View the Code</a>
+          <a class="uk-button uk-button-secondary" href="http://playlists.hdsapps.com/playlists/rainy-days/">View a Playlist</a>
         </div>
       </div>
 
-
-
-
-      <section class="uk-section-small">
-        <div class="uk-container uk-container-small uk-padding-large uk-padding-remove-top">
-          <div class="uk-flex uk-flex-middle uk-flex-center">
-            <div class="uk-text-center uk-padding-large uk-padding-remove-top" uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
-              <h1 class="uk-text-uppercase">Mixtagon</h1>
-              <img src="images/portfolio/mixtagon-imac.png" alt="">
-              <a class="uk-button uk-button-secondary" href="https://github.com/josedigital/playlists">View the Code</a>
-              <a class="uk-button uk-button-secondary" href="http://playlists.hdsapps.com/playlists/rainy-days/">View a Playlist</a>
-          </div>
-          </div>
-
-          <div class="uk-align-center uk-width-3-4" uk-scrollspy="cls: uk-animation-slide-top-medium; repeat: true">
-            <h2>About</h2>
-            <p class="uk-text-dark">Mixtagon is a personal project site created using <a href="https://processwire.com/">Processwire CMF</a>, an open source PHP framework and Content Management System. The Mixtagon allows members to create playlists by uploading music files and a small narrative. The purpose is to create music playlists based on a theme. Members can challenge each other on a particular theme and compete with their playlists. Playlist audio players are created with <a href="https://github.com/kolber/audiojs">audiojs</a>. </p>
-          </div>
-        </div>
-      </section>
-
-
-    </header>
-
-
-
-    <section class="uk-section uk-section-default">
-      <div uk-grid class="uk-grid-match uk-grid-medium uk-child-width-1-2@m uk-padding-large">
-        <div class="uk-padding-large" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-          <h2 class="uk-text-dark">Design &amp; Development</h2>
-          <p class="uk-text-dark">I created a diagram of how I wanted the application to work, and how I saw the user flow best laid out. Because I didn't have many user roles or screens to design, I skipped wireframes and I designed the entire app in the browser as I created the application itself.</p>    
-        </div>
-        <div>
-          <div class="uk-padding-large" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-              <figure>
-                  <img src="images/portfolio/mixtagon-macbook-1.png" alt="">
-              </figure>
-          </div>
-        </div>
-
-        </div>
-    </section>
-
-    <section class="uk-section uk-section-default">
-        <div uk-grid class="uk-grid-small uk-child-width-1-2@m">
-          <div class="uk-padding-large">
-              <div uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-                  <figure>
-                      <img src="images/portfolio/mixtagon-macbook-2.png" alt="">
-                  </figure>
-              </div>
-          </div>
-          <div class="uk-padding-large uk-text-dark">
-              <h2 class="uk-text-dark uk-h3">A Fun Project and a Great CMS</h2>
-              
-              <p>I created Mixtagon 3 years ago and it was a really fun project. I learned quite a bit of PHP programming, Object Oriented programming in PHP, and Javascript/AJAX. Processwire makes learning and writing PHP a beautiful experieince. I can't praise it enough. The only drawback I had with Processwire and PHP is that authentication and security are baked-in, so i didn't learn much in that respect.</p>
-              
-              <h2 class="uk-text-dark uk-h3">Leveraging Processwire's Admin</h2>
-              
-              <p>Processwire's API is so well-written that I was able to easily display its admin to authenticated users without the need to visit the admin area. A bit of Javascript and Processwire's API helped bring the admin to the user without leaving the site or page refreshing. This allowed me to contentrate on the business logic that powered the application.</p>
-              
-              <h2 class="uk-text-dark uk-h3">Audio Player</h2>
-              
-              <p>Mixtagon uses audiojs to create audio players for each playlist. It's a fantastic JS library. It also uses GetID3, a PHP library "that extracts useful information from MP3s." Users can then upload a batch of MP3s and the Mixtagon displays each file's metada including the song title, artist name, and the album. I also included text field backups in case no meta data is available. Users can also upload a companion image and add optional overlays to create a monochromatic look with a custom background.</p>
-          </div>
-
+      <div class="uk-align-center uk-width-3-4" uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+        <h2>About</h2>
+        <p class="uk-text-dark">Panda App was created for budding developers, whether on a path of self-study or as part of a group or bootcamp. The app provides curated resources, job search and preparation guides, and a code portfolio page to use as a starting point.</p>
+        <h3 class="uk-text-dark">Technical Lead</h3>
+        <ul class="uk-text-dark">
+            <li> Technical Lead</li>
+            <li> Initial set-up of Express Server and configuration</li>
+            <li> Working with external APIs (Meetup, Dice, The Muse, and Indeed) to provide content</li>
+            <li> Github repository manager</li>
+            <li> UI/UX and front-end development (SASS &amp; Handlebars)</li>
+            <li> support MySQL database integration</li>
+        </ul>
       </div>
-    </section>
+    </div>
+  </section>
 
 
-    
-    
-      </div><!--  /uk-offcanvas-content -->
-    </body>
-    
-    </html>
+</header>
+
+
+
+<section class="uk-section uk-background-cover uk-background-fixed panda-ux">
+  <div uk-grid class="uk-grid-medium uk-width-1-2 uk-align-center uk-padding-large">
+    <div>
+      <h2>User Flows &amp; Wireframes</h2>
+      <p>Our team dedicated one fourth of our alloted 3-week time period to developing user flows and wireframing the application. After defining application features, I had each team member walk me through their thinking process in a hypothetical app. This helped establish an agreed-upon user flow. I drew up wireframes, whose iteration led to a tab-based interface. These wires helped keep us on track in both design and devlopment.</p>
+    </div>
+  </div>
+</section>
+
+<section class="uk-section uk-section-default">
+  <div uk-grid class="uk-grid-small uk-child-width-1-2@m uk-flex uk-flex-middle uk-text-dark" uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+    <div class="uk-padding-large">
+      <div>
+          <h2 class="uk-text-dark uk-h3">Curated Content for Easier Learning</h2>
+          <p>Panda's main aim is to provide curated content in the form of videos, PDFs, free books and other online resources to developers. Whether our users are in the early stages of their learning process or embarking upon a career in application development, Pand helps make the process easier by eliminating the time spent searching and finding valuable resources and combining them in one place.</p>
+      </div>
+    </div>
+    <div class="uk-padding-large">
+      <h2 class="uk-text-dark uk-h3">Social Login</h2>
+      <p>We decided to use Github Login for Panda. Our users are devlopers at any stage of their leraning process so it was a safe assumption that all had Github accounts. Aside from being a good and easy login/signup process, social login also gave our app the ability to access Github repos, essential for users to create a shareable profile.</p>
+    </div>
+  </div>
+</section>
+
+<section class="uk-section uk-section-muted uk-text-dark">
+  <div uk-grid class="uk-grid-small uk-child-width-1-2@m uk-flex uk-flex-middle" uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+    <div class="uk-padding-large">
+      <h2 class="uk-text-dark uk-h3">Public APIs</h2>
+      <p>I accessed several job board APIs (Dice, The Muse, and Indeed) to let users search for available jobs directly through our app. I also included the Meetup API so users can just as easily search for relevant groups in the area. All are filtered by a curated technology list. Github's API was also put to use to display users' code repositories.</p>
+    </div>
+    <div>
+      <figure>
+        <img src="/images/portfolio/panda-macbook-2.png" alt="">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="uk-section uk-section-default uk-text-dark">
+    <div class="uk-container uk-container-small uk-padding-large uk-padding-remove-top">
+      <div class="uk-flex uk-flex-middle uk-flex-center">
+        <div class="uk-padding-large uk-padding-remove-top" uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+          <h2 class="uk-text-center uk-text-dark uk-h3">A Professional Profile for Developers</h2>
+          <p>Panda users are encouraged to easily create a public user profile. By choosing up to 4 of their favorite code repos, users can display them in a simple user profile page. I used a simple edit-in-place Javascript library, <a href="http://getcontenttools.com/">ContentTools</a>, to allow users to add a blurb about themselves and each code repo they chose. Because Panda is using their Github profile, users can choose to have their Github profile settings take precedence over Panda's, eliminating the need to re-type or copy + paste their profile info. </p>
+          <figure>
+              <img src="/images/portfolio/panda-imac.png" alt="">
+          </figure>
+        </div>
+      </div>
+    </div>
+</section>
+
+  
+
+
+
+
+<footer class="uk-section">
+  <div class="uk-container uk-text-center uk-flex uk-width-1-3">
+    <a class="uk-icon-link uk-width-1-3" uk-icon="icon: github; ratio: 2" href="https://github.com/alexrdz"></a>
+    <a class="uk-icon-link uk-width-1-3" uk-icon="icon: google-plus; ratio: 2" href="https://plus.google.com/u/0/+alexrodriguez_hds"></a>
+    <a class="uk-icon-link uk-width-1-3" uk-icon="icon: linkedin; ratio: 2" href="https://www.linkedin.com/in/alexrdz/"></a>
+  </div>
+</footer>
+
+
+  </div><!--  /uk-offcanvas-content -->
+</body>
+
+</html>
