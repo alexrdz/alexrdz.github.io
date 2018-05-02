@@ -1,0 +1,129 @@
+<!DOCTYPE html><html lang="en"><head><title>AlexRdz · UI Designer & Developer</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Alex Rodriguez, Austin-based UI Designer, Javascript &amp;amp; Front End Developer"><link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png"><meta name="msapplication-TileColor" content="#0e1f22"><meta name="msapplication-TileImage" content="/ms-icon-144x144.png"><meta name="theme-color" content="#0e1f22"><meta name="url" content="http://alexrdz.me/"><meta name="identifier-URL" content="http://alexrdz.me/"><meta name="description" content="Alex Rdz. Dedicated UI designer and JavaScript developer with a passion for smart design and beautiful code."><meta name="subject" content="Portfolio of Alex Rodriguez, UI Developer"><!-- Google Fonts--><link href="https://fonts.googleapis.com/css?family=Work+Sans:100,300,400,700" rel="stylesheet"><!-- Utils--><link href="css/index.css" rel="stylesheet"><!-- Global site tag (gtag.js) - Google Analytics--><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-4084658-3"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4084658-3');
+
+</script></head><body class="undefined"><div class="loader"><div class="signal"></div></div><?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>http://alexrdz.me
+        /
+      </loc>
+      <changefreq>
+        daily
+      </changefreq>
+      <lastmod>
+        2018-05-02T02:14:03.441Z
+      </lastmod>
+    </url>
+    
+    <url>
+      <loc>http://alexrdz.me
+        /lupuloco
+      </loc>
+      <changefreq>
+        daily
+      </changefreq>
+      <lastmod>
+        2018-05-02T02:14:03.447Z
+      </lastmod>
+    </url>
+    
+    <url>
+      <loc>http://alexrdz.me
+        /sennobia
+      </loc>
+      <changefreq>
+        daily
+      </changefreq>
+      <lastmod>
+        2018-05-02T02:14:03.447Z
+      </lastmod>
+    </url>
+    
+    <url>
+      <loc>http://alexrdz.me
+        /util
+      </loc>
+      <changefreq>
+        daily
+      </changefreq>
+      <lastmod>
+        2018-05-02T02:14:03.447Z
+      </lastmod>
+    </url>
+    
+    <url>
+      <loc>http://alexrdz.me
+        /work
+      </loc>
+      <changefreq>
+        daily
+      </changefreq>
+      <lastmod>
+        2018-05-02T02:14:03.447Z
+      </lastmod>
+    </url>
+    
+    <url>
+      <loc>http://alexrdz.me
+        /www/
+      </loc>
+      <changefreq>
+        daily
+      </changefreq>
+      <lastmod>
+        2018-05-02T02:14:03.447Z
+      </lastmod>
+    </url>
+    
+    <url>
+      <loc>http://alexrdz.me
+        /www/lupuloco
+      </loc>
+      <changefreq>
+        daily
+      </changefreq>
+      <lastmod>
+        2018-05-02T02:14:03.447Z
+      </lastmod>
+    </url>
+    
+    <url>
+      <loc>http://alexrdz.me
+        /www/sennobia
+      </loc>
+      <changefreq>
+        daily
+      </changefreq>
+      <lastmod>
+        2018-05-02T02:14:03.447Z
+      </lastmod>
+    </url>
+    
+    <url>
+      <loc>http://alexrdz.me
+        /www/util
+      </loc>
+      <changefreq>
+        daily
+      </changefreq>
+      <lastmod>
+        2018-05-02T02:14:03.447Z
+      </lastmod>
+    </url>
+    
+    <url>
+      <loc>http://alexrdz.me
+        /www/work
+      </loc>
+      <changefreq>
+        daily
+      </changefreq>
+      <lastmod>
+        2018-05-02T02:14:03.447Z
+      </lastmod>
+    </url>
+    
+</urlset><script src="/js/app.js"></script></body></html>
