@@ -1,0 +1,21 @@
+---
+title: Alex Rdz
+email: drinkhorchata@gmail.com
+description: Dedicated UI designer and JavaScript developer with a passion for smart
+  design and beautiful code.
+show_excerpts: true
+baseurl: ''
+url: ''
+twitter_username: jekyllrb
+github_username: jekyll
+google_analytics: UA-4084658-3
+markdown: kramdown
+theme: minima
+sass:
+  style: compressed
+plugins:
+- jekyll-feed
+deploy:
+  repository: git@github.com-alexrdz:alexrdz/alexrdz.github.io.git
+  branch: master
+timezone: Etc/UTC
