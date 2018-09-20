@@ -5,7 +5,7 @@ description: Dedicated UI designer and JavaScript developer with a passion for s
   design and beautiful code.
 show_excerpts: true
 baseurl: ''
-url: ''
+url: https://alexrdz.me
 twitter_username: jekyllrb
 github_username: jekyll
 google_analytics: UA-4084658-3
@@ -15,6 +15,7 @@ sass:
   style: compressed
 plugins:
 - jekyll-feed
+- jekyll-sitemap
 deploy:
   repository: git@github.com-alexrdz:alexrdz/alexrdz.github.io.git
   branch: master
